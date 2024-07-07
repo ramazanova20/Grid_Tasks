@@ -1,0 +1,21 @@
+#container {
+    max-width: 1000px;
+    height: 100vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 20% auto 160px;
+    grid-template-rows: 100px 40px 260px;
+    gap: 10px;
+    }
+    
+    #container p{
+       padding: 20px;
+    }
+    header { grid-area: 1 / 1 / 2 / 6; background-color: green;}
+    nav { grid-area: 2 / 1 / 4 / 2; background-color: green;}
+    main { grid-area: 2 / 2 / 5 / 6; background-color: green;}
+    aside { grid-area: 4 / 1 / 6 / 2; background-color: green;}
+    footer { grid-area: 5 / 2 / 6 / 6; background-color: green;}
+
+
+   
